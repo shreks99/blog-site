@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Blog = require('./models/blog')
 
 // express app
 const app = express();
