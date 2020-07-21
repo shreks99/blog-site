@@ -19,7 +19,17 @@ router.post('/',(req, res) => {
         .catch((err) => console.log(err));
 })
 
+router.get('/:id', (req, res) => {
+    const id = req.params.id;
+    Blog.findById(id)
+        .then((result) => {
+            res.render('details',{title: 'Blog Details',blog:result}) 
+        })
+        .catch((err) => console.log(err));
+});
 router.get('/create',(req,res) => {
     res.render('create',{title: 'Create Blog'});
 })
+
+
 module.exports = router;
