@@ -8,10 +8,11 @@ A SIMPLE BLOG MANAGEMENT AND PUBLISHING APPLICATION, BUILT USING NODEJS
 # Screenshots
 
 ## Blogs-Overview
-<img src="images/blog-overview.png" >
+![Blogs-Overview](images/blog-overview.png)
 
 ## Specific-Blog
-<img src="images/specific-blog.png">
+![Specific-Blog](images/specific-blog.png)
 
 ## Create-Blog
-<img src="images/create-blog.png">
+![Create-Blog](images/create-blog.png)
+
